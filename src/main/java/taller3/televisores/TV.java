@@ -15,6 +15,14 @@ public class TV {
 		this.estado = estado;
 	}
 	
+	public int getNumTv() {
+		return this.numTv;
+	}
+	
+	public void setNumTv(int numTv) {
+		this.numTv= numTv;
+	}
+	
 	public Marca getMarca() {
 		return this.marca;
 	}
@@ -68,7 +76,7 @@ public class TV {
 		this.estado = false;
 	}
 	
-	boolean getEstado() {
+	public boolean getEstado() {
 		return this.estado;
 	}
 	
