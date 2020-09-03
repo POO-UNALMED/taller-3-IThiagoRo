@@ -15,11 +15,11 @@ public class TV {
 		this.estado = estado;
 	}
 	
-	public int getNumTV() {
+	public static int getNumTV() {
 		return TV.numTv;
 	}
 	
-	public void setNumTV(int numTv) {
+	public static void setNumTV(int numTv) {
 		TV.numTv= numTv;
 	}
 	
